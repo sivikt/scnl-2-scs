@@ -1,0 +1,21 @@
+{{SCnLStatement|1|
+                    {{SCnLUniversal|1}} {{SCnLVar|_t}} {{SCnLThereIs|1}}
+                        {{SCnLevel|1}} {{SCnLImplication|1}}
+                            {{SCnLevel|2}} {{SCnLIf|2}}
+                                {{SCnLAtomicExist|
+                                    {{SCnLVar|_t}} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Треугольник|треугольник]]}}
+                                }}
+                            {{SCnLevel|2}} {{SCnLThen|2}}
+                                {{SCnLExistential|2}} {{SCnLVar|_a}}, {{SCnLVar|_b}}, {{SCnLVar|_c}}, {{SCnLVar|_o}} {{SCnLExistentialPropPref|2}}
+                                        {{SCnLevel|3}} {{SCnLAtomicExist|
+                                            {{SCnLVar|_a}} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Отрезок|отрезок]]}} ;
+                                            {{SCnLevel|2}} {{SCnLOSet| {{SCnLVar|_t}}, {{SCnLVar|_a}} }} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Биссектриса|биссектриса*]]}} ;
+                                            {{SCnLevel|2}} {{SCnLVar|_b}} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Отрезок|отрезок]]}} ;
+                                            {{SCnLevel|2}} {{SCnLOSet| {{SCnLVar|_t}}, {{SCnLVar|_b}} }} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Биссектриса|биссектриса*]]}} ;
+                                            {{SCnLevel|2}} {{SCnLVar|_c}} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Окружность|окружность]]}} ;
+                                            {{SCnLevel|2}} {{SCnLOSet| {{SCnLVar|_t}}, {{SCnLVar|_c}} }} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Вписанность|вписанность*]]}} ;
+                                            {{SCnLevel|2}} {{SCnLVar|_o}} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Геометрическая точка|геометрическая точка]]}} ;
+                                            {{SCnLevel|2}} {{SCnLOSet| {{SCnLVar|_c}}, {{SCnLVar|_o}} }} {{SCn_принадлежность}} {{SCnLConcept|[[Геометрия:Центр|центр*]]}} ;
+                                            {{SCnLevel|2}} {{SCnLOSet| {{SCnLSet| {{SCnLVar|_a}}, {{SCnLVar|_b}}}}, {{SCnLSet|{{SCnLVar|_o}}}}}} {{SCn_принадлежность}} {{SCnLConcept|[[Теория множеств:Пересечение|пересечение*]]}}
+                                        }}
+.|cont}}
